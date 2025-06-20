@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.nav ul{
+    list-style: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.nav a:hover{
+    background-color: black;
+}
+.nav li{
+    float: left;
+}
